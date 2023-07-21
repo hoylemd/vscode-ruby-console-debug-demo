@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "ruby_lsp",
+            "name": "hickory(lsp)",
+            "request": "launch",
+            "program": "ruby hickory.rb"
+        },
+        {
+            "type": "ruby_lsp",
+            "name": "dickory(lsp)",
+            "request": "launch",
+            "program": "ruby dickory.rb"
+        },
+        {
+            "type": "rdbg",
+            "name": "hickory(rdbg)",
+            "request": "launch",
+            "script": "hickory.rb"
+        },
+        {
+            "type": "rdbg",
+            "name": "dickory(rdbg)",
+            "request": "launch",
+            "script": "dickory.rb"
+        }
+    ]
+}
